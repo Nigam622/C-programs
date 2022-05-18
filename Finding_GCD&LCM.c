@@ -1,5 +1,7 @@
     #include <stdio.h>
     
+void main()
+{
     int num1,num2,i,gcd,lcm;                        
     printf("Enter the two numbers:\n");
     scanf("%d%d",&num1,&num2);
@@ -13,3 +15,4 @@
     
       printf("GCD=%d\n",gcd);
        printf("LCM=%d\n",lcm);
+}
